@@ -31,7 +31,7 @@ namespace RealEstate.Overlays.Admin
 
         private void RE_EditAdmin_Loaded(object sender, RoutedEventArgs e)
         {
-            this.Title = this.Title + adminToEdit;
+            this.Title = "Edit Admin : " + adminToEdit;
         }
 
         private void RE_EditAdmin_Closed(object sender, EventArgs e)

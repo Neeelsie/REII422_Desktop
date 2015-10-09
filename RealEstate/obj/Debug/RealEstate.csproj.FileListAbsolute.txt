@@ -71,3 +71,6 @@ E:\Development\C#\RealEstate\RealEstate\obj\Debug\RealEstate.Properties.Resource
 E:\Development\C#\RealEstate\RealEstate\obj\Debug\RealEstate.csproj.GenerateResource.Cache
 E:\Development\C#\RealEstate\RealEstate\obj\Debug\RealEstate.exe
 E:\Development\C#\RealEstate\RealEstate\obj\Debug\RealEstate.pdb
+C:\Users\Kerneels\Documents\Git\REII422\RealEstate\bin\Debug\RealEstate.exe.config
+C:\Users\Kerneels\Documents\Git\REII422\RealEstate\obj\Debug\RealEstate.exe
+C:\Users\Kerneels\Documents\Git\REII422\RealEstate\obj\Debug\RealEstate.pdb

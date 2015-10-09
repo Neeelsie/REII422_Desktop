@@ -3,7 +3,7 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:extra="http://schemas.extra.com/ui"
         x:Name="RE_AddAgentOverlay"
-        Title="AddAgentOverlay" Height="300" Width="300" TitleBarVisibility="Visible" Closed="RE_AddAgentOverlay_Closed">
+        Title="Add an Agent" Height="300" Width="300" TitleBarVisibility="Visible" Closed="RE_AddAgentOverlay_Closed">
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="*"/>

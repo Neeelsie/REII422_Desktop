@@ -3,7 +3,7 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:extra="http://schemas.extra.com/ui"
         x:Name="RE_AddAdminOverlay"
-        Title="AddAdminOverlay" Height="300" Width="300" TitleBarVisibility="Visible" Closed="RE_AddAdminOverlay_Closed">
+        Title="Add an Admin" Height="300" Width="300" TitleBarVisibility="Visible" Closed="RE_AddAdminOverlay_Closed">
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="*"/>
