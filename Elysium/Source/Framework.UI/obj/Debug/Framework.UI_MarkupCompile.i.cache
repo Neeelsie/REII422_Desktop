@@ -1,0 +1,20 @@
+﻿Framework.UI
+
+
+library
+C#
+.cs
+C:\Users\Kerneels\Desktop\New folder (2)\Source\Framework.UI\obj\Debug\
+Framework.UI
+none
+false
+DEBUG;TRACE
+
+751949592645
+
+200-701203420
+24-937531728
+Themes\ElysiumExtra\BorderFix.xaml;Themes\Elysium\ApplicationBar.xaml;Themes\Elysium\ProgressRing.xaml;Themes\Elysium\Submenu.xaml;Themes\WPF\Base\DrawingImage.xaml;Themes\WPF\Base\Geometry.xaml;Themes\ElysiumExtra\GeometryIcon.xaml;Themes\ElysiumExtra\Icon.xaml;Themes\ElysiumExtra\Watermark.xaml;Themes\ElysiumExtra\RichTextBoxExtended.xaml;Themes\ElysiumExtra\ButtonTextBox.xaml;Themes\ElysiumExtra\NumericUpDown.xaml;Themes\ElysiumExtra\LoadingContent.xaml;Themes\ElysiumExtra\FlipControl.xaml;Themes\ElysiumExtra\CalloutContentControl.xaml;Themes\ElysiumExtra\MessageDialog.xaml;Themes\ElysiumExtra\Accordion.xaml;Themes\ElysiumExtra\ElasticPicker.xaml;Themes\ElysiumExtra\PagingItemsControl.xaml;Themes\ElysiumExtra\ExpanderMenu.xaml;Themes\ElysiumExtra\NotesListBox.xaml;Themes\ElysiumExtra\Wizard.xaml;Themes\ElysiumExtra\TextBoxExtended.xaml;Themes\ElysiumExtra\ComboDataGrid.xaml;Themes\Elysium\CommandButton.xaml;Themes\Elysium\DropDownCommandButton.xaml;Themes\Elysium\ToggleSwitch.xaml;Themes\Elysium\ToggleCommandButton.xaml;Themes\Generic.xaml;Themes\WPF\Base\Border.xaml;Themes\WPF\Base\GroupStyle.xaml;Themes\WPF\Base\Theme\DarkColor.xaml;Themes\WPF\Base\Theme\LightColor.xaml;Themes\Elysium\ProgressBar.xaml;Themes\WPF\Controls\PasswordBox.xaml;Themes\WPF\Controls\RichTextBox.xaml;Themes\WPF\Controls\ContextMenu.xaml;Themes\WPF\Controls\Menu.xaml;Themes\WPF\Controls\ToolTip.xaml;Themes\WPF\Controls\ScrollBar.xaml;Themes\WPF\Controls\ScrollViewer.xaml;Themes\WPF\Controls\Window.xaml;Themes\WPF\Controls\DataGrid.xaml;Themes\WPF\Controls\TextBlock.xaml;Themes\WPF\Controls\Expander.xaml;Themes\WPF\Controls\TreeView.xaml;Themes\WPF\Controls\TreeViewItem.xaml;Themes\WPF\Controls\HeaderedContentControl.xaml;Themes\WPF\Controls\GridSplitter.xaml;Themes\WPF\Controls\DatePicker.xaml;Themes\WPF\Controls\Calendar.xaml;Themes\WPF\Controls\Label.xaml;Themes\WPF\Controls\Hyperlink.xaml;Themes\WPF\Controls\ContentControl.xaml;Themes\WPF\Controls\ItemsControl.xaml;Themes\WPF\Controls\Slider.xaml;Themes\WPF\Controls\TabItem.xaml;Themes\WPF\Controls\TabControl.xaml;Themes\WPF\Controls\ListBox.xaml;Themes\WPF\Controls\ListBoxItem.xaml;Themes\WPF\Controls\RepeatButton.xaml;Themes\WPF\Controls\ToggleButton.xaml;Themes\WPF\Controls\Button.xaml;Themes\WPF\Controls\RadioButton.xaml;Themes\WPF\Controls\CheckBox.xaml;Themes\WPF\Controls\ComboBoxItem.xaml;Themes\WPF\Controls\ComboBox.xaml;Themes\WPF\Controls\TextBox.xaml;Themes\WPF\Base\Brush.xaml;Themes\WPF\Base\Color.xaml;Themes\WPF\Base\Converter.xaml;Themes\WPF\Base\FocusVisualStyle.xaml;Themes\WPF\Controls\MenuItem.xaml;Themes\WPF\Controls\Separator.xaml;Themes\WPF\Base\Validation.xaml;
+
+False
+

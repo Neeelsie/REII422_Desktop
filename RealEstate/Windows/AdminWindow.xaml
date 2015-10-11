@@ -22,6 +22,9 @@
                     <TabItem Header="Agents">
                         <AdminViews:AgentView x:Name="TI_AgentView" />
                     </TabItem>
+                    <TabItem Header="Clients" x:Name="TI_ClientView">
+                        <AdminViews:ClientView />
+                    </TabItem>
                 </TabControl>
             </TabItem>
             <TabItem Header="Locations">
