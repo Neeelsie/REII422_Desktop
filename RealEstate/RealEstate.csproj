@@ -34,21 +34,17 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Elysium, Version=2.0.1042.4, Culture=neutral, PublicKeyToken=afa220db249e5b15, processorArchitecture=MSIL">
+    <Reference Include="Elysium">
       <HintPath>..\packages\Elysium.Theme.2.0.4\lib\net45\Elysium.dll</HintPath>
-      <Private>True</Private>
     </Reference>
-    <Reference Include="Framework, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+    <Reference Include="Framework">
       <HintPath>..\packages\Elysium.Extra.1.1.7\lib\net45\Framework.dll</HintPath>
-      <Private>True</Private>
     </Reference>
-    <Reference Include="Framework.UI, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+    <Reference Include="Framework.UI">
       <HintPath>..\packages\Elysium.Extra.1.1.7\lib\net45\Framework.UI.dll</HintPath>
-      <Private>True</Private>
     </Reference>
     <Reference Include="Microsoft.Expression.Interactions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\System.Windows.Interactivity.WPF.2.0.20525\lib\net40\Microsoft.Expression.Interactions.dll</HintPath>
-      <Private>True</Private>
     </Reference>
     <Reference Include="Microsoft.Maps.MapControl.WPF, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.Maps.MapControl.WPF.1.0.0.3\lib\net40-Client\Microsoft.Maps.MapControl.WPF.dll</HintPath>
@@ -60,31 +56,25 @@
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
-    <Reference Include="System.Reactive.Core, Version=2.2.5.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+    <Reference Include="System.Reactive.Core">
       <HintPath>..\packages\Rx-Core.2.2.5\lib\net45\System.Reactive.Core.dll</HintPath>
-      <Private>True</Private>
     </Reference>
-    <Reference Include="System.Reactive.Interfaces, Version=2.2.5.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+    <Reference Include="System.Reactive.Interfaces">
       <HintPath>..\packages\Rx-Interfaces.2.2.5\lib\net45\System.Reactive.Interfaces.dll</HintPath>
-      <Private>True</Private>
     </Reference>
-    <Reference Include="System.Reactive.Linq, Version=2.2.5.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+    <Reference Include="System.Reactive.Linq">
       <HintPath>..\packages\Rx-Linq.2.2.5\lib\net45\System.Reactive.Linq.dll</HintPath>
-      <Private>True</Private>
     </Reference>
-    <Reference Include="System.Reactive.PlatformServices, Version=2.2.5.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+    <Reference Include="System.Reactive.PlatformServices">
       <HintPath>..\packages\Rx-PlatformServices.2.2.5\lib\net45\System.Reactive.PlatformServices.dll</HintPath>
-      <Private>True</Private>
     </Reference>
-    <Reference Include="System.Reactive.Windows.Threading, Version=2.2.5.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+    <Reference Include="System.Reactive.Windows.Threading">
       <HintPath>..\packages\Rx-XAML.2.2.5\lib\net45\System.Reactive.Windows.Threading.dll</HintPath>
-      <Private>True</Private>
     </Reference>
     <Reference Include="System.Runtime.Serialization" />
     <Reference Include="System.ServiceModel" />
     <Reference Include="System.Windows.Interactivity, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\System.Windows.Interactivity.WPF.2.0.20525\lib\net40\System.Windows.Interactivity.dll</HintPath>
-      <Private>True</Private>
     </Reference>
     <Reference Include="System.Xml" />
     <Reference Include="Microsoft.CSharp" />
@@ -108,10 +98,12 @@
     <Compile Include="BingMaps\ViewModels\GeocodeViewModel.cs" />
     <Compile Include="Classes\AdminManager.cs" />
     <Compile Include="Classes\AgentManager.cs" />
+    <Compile Include="Classes\ClientManager.cs" />
     <Compile Include="Classes\ConfigManager.cs" />
     <Compile Include="Classes\Cryptography.cs" />
     <Compile Include="Classes\DatabaseManager.cs" />
     <Compile Include="Classes\LocationManager.cs" />
+    <Compile Include="Classes\PreferenceManager.cs" />
     <Compile Include="Classes\Session.cs" />
     <Compile Include="DataSets\Config.Designer.cs">
       <AutoGen>True</AutoGen>
@@ -122,17 +114,27 @@
     <Compile Include="GridViewSources\Agent.cs" />
     <Compile Include="GridViewSources\Area.cs" />
     <Compile Include="GridViewSources\City.cs" />
+    <Compile Include="GridViewSources\Client.cs" />
     <Compile Include="GridViewSources\Province.cs" />
     <Compile Include="Overlays\Admin\AddAdminOverlay.xaml.cs" />
     <Compile Include="Overlays\Admin\EditAdminOverlay.xaml.cs" />
     <Compile Include="Overlays\Agent\AddAgentOverlay.xaml.cs" />
     <Compile Include="Overlays\Agent\EditAgentOverlay.xaml.cs" />
+    <Compile Include="Overlays\Client\AddClientOverlay.xaml.cs">
+      <DependentUpon>AddClientOverlay.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Overlays\Client\EditClientOverlay.xaml.cs">
+      <DependentUpon>EditClientOverlay.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Overlays\Location\AddAreaOverlay.xaml.cs" />
     <Compile Include="Overlays\Location\AddCityOverlay.xaml.cs" />
     <Compile Include="Overlays\Location\AddProvinceOverlay.xaml.cs" />
     <Compile Include="Overlays\Location\EditAreaOverlay.xaml.cs" />
     <Compile Include="Overlays\Location\EditCityOverlay.xaml.cs" />
     <Compile Include="Overlays\Location\EditProvinceOverlay.xaml.cs" />
+    <Compile Include="Overlays\Preferences\EditPreferenceOverlay.xaml.cs">
+      <DependentUpon>EditPreferenceOverlay.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Overlays\ServerSettings\ServerSettingsOverlay.xaml.cs" />
     <Compile Include="Service References\BingMapsService\Reference.cs">
       <AutoGen>True</AutoGen>
@@ -143,6 +145,9 @@
     <Compile Include="Views\AdminViews\AgentView.xaml.cs" />
     <Compile Include="Views\AdminViews\AreaView.xaml.cs" />
     <Compile Include="Views\AdminViews\CitiesView.xaml.cs" />
+    <Compile Include="Views\AdminViews\ClientView.xaml.cs">
+      <DependentUpon>ClientView.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Views\AdminViews\ProvincesView.xaml.cs" />
     <Compile Include="Windows\AdminWindow.xaml.cs" />
     <Page Include="MainWindow.xaml">
@@ -173,6 +178,14 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
+    <Page Include="Overlays\Client\AddClientOverlay.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Overlays\Client\EditClientOverlay.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Overlays\Location\AddAreaOverlay.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -197,6 +210,10 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
+    <Page Include="Overlays\Preferences\EditPreferenceOverlay.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Overlays\ServerSettings\ServerSettingsOverlay.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -216,6 +233,10 @@
     <Page Include="Views\AdminViews\CitiesView.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\AdminViews\ClientView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Views\AdminViews\ProvincesView.xaml">
       <Generator>MSBuild:Compile</Generator>
@@ -309,6 +330,7 @@
       <LastGenOutput>Reference.cs</LastGenOutput>
     </None>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

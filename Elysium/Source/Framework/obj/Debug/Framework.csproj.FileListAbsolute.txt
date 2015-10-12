@@ -1,0 +1,5 @@
+C:\Users\Kerneels\Desktop\New folder (2)\Bin\Debug\Framework.dll
+C:\Users\Kerneels\Desktop\New folder (2)\Bin\Debug\Framework.pdb
+C:\Users\Kerneels\Desktop\New folder (2)\Source\Framework\obj\Debug\Framework.csprojResolveAssemblyReference.cache
+C:\Users\Kerneels\Desktop\New folder (2)\Source\Framework\obj\Debug\Framework.dll
+C:\Users\Kerneels\Desktop\New folder (2)\Source\Framework\obj\Debug\Framework.pdb
